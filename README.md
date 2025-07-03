@@ -1,14 +1,14 @@
-# 💼 Portfolio Website
+# Portfolio Website
 
 Welcome to my personal portfolio website! This project showcases my academic background, technical skills, projects, and contact information in a clean, responsive, and professional layout.
 
-## 🚀 Live Preview
+## Live Preview
 
-👉 [View Website](https://priyanshu-verma87.github.io/Personal_Portfolio/)  
+ [View Website](https://priyanshu-verma87.github.io/Personal_Portfolio/)  
 
 ---
 
-## 📌 Features
+## Features
 
 - 🧑‍💻 **About Me**: Brief introduction and background.
 - 💡 **Skills Section**: Visual progress bars representing technical skills.
@@ -19,10 +19,9 @@ Welcome to my personal portfolio website! This project showcases my academic bac
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5**
 - **CSS3**
-- **JavaScript**
 - **Typed.js** (for animated text)
 
