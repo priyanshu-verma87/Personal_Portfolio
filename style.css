@@ -30,23 +30,23 @@ nav {
   z-index: 1000;
 }
 
-.left{
+.left {
   font-size: 1.5rem;
 }
 
-.right{
+.right {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.right a{
+.right a {
   text-decoration: none;
   margin: 0 23px;
   color: white;
 }
 
-.right a:hover{
+.right a:hover {
   color: rgb(176, 176, 245);
   font-size: 1.01rem;
 }
@@ -127,9 +127,14 @@ h1 {
   font-weight: 400;
 }
 
-.leftAbout, .rightAbout {
+.leftAbout,
+.rightAbout {
   width: 48%;
   min-width: 300px;
+}
+
+.rightAbout {
+  margin-top: 30px;
 }
 
 .photoSection {
@@ -200,7 +205,7 @@ h1 {
 .box-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 20px;
   margin-top: 30px;
 }
@@ -208,7 +213,7 @@ h1 {
 .box {
   width: 31%;
   min-width: 300px;
-  height: auto;
+  height: 450px;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -319,18 +324,14 @@ h1 {
 /*--------------------Media Query for responsiveness--------------------*/
 
 @media only screen and (max-width: 800px) {
-
-
-  .leftAbout, .rightAbout {
-      width: 100%;
+  .leftAbout,
+  .rightAbout {
+    width: 100%;
   }
 
   .box {
-      width: 100%;
-      padding-top: 54px;
-      height: auto;
+    width: 100%;
+    padding-top: 54px;
+    height: 450px;
   }
-
 }
-
-
